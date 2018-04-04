@@ -23,4 +23,22 @@
 		<property name="username" value="root" />
 		<property name="password" value="123456" />
 	</bean>
+	
+	<!-- mybatis的 sqlSessionFactory -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+		<property name="dataSource" ref="dataSource"/>
+		<property name="mapperLocations">
+			<array>
+				<value>classpath:tk/mybatis/**/mapper/*.xml</value>
+			</array>
+		</property>
+		<property name="typeAliasesPackage" value="tk.mybatis.web.model"/>
+	</bean>
+	
+	<bean id="mapperScannerConfiger" class="org.mybatis.spring.mapper.MapperScannerConfiger">
+		<property name="basePackage" value="tk.mybatis.**.mapper"></property>
+	</bean>
+	
+	
 </beans>

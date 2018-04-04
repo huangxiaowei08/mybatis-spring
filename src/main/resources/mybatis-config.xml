@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--通过这个配置文件，完成mybatis与数据库的连接  -->
+<configuration>
+    <!-- 注意此配置文件内的元素的  -->
+    <!-- 引入database.properties文件 -->
+    <!-- <properties resource="database.properties"/>  -->
+    <!--配置mybatis的log实现为LOG4J  -->
+    <!-- 配置后，后台就会有sql语句的输出 -->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+        <!-- 这个属性默认为false，设置成true：可以自动将以下划线方式命名的数据库列映射到java对象的驼峰式命名属性中 -->
+     	<setting name="mapUnderscoreToCamelCase" value="true"/> 
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    
+</configuration>
