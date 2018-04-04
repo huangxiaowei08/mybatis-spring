@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+
+.not-null {
+  color: #ff0000;
+  line-height: 160%;
+  padding-right: 4px;
+  font-family: verdana, sans-serif;
+  text-align: right;
+}
+
+/*日期区间时使用*/
+.pd-zero {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.box-zero {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pd-zero-left {
+  padding-left: 0px;
+}
+
+.align-left {
+  text-align: left;
+  float: left !important;
+}
+
+/*日期区间时使用，小于767时显示*/
+@media ( max-width: 767px) {
+  .pd-zero-xs {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .align-left-xs {
+    text-align: left;
+    float: left !important;
+  }
+}
+
+/* 768和991区间时显示 */
+@media ( min-width: 768px) and (max-width: 991px) {
+  .pd-zero-sm {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .align-left-sm {
+    text-align: left;
+    float: left !important;
+  }
+}
+
+/* 992和1199区间时显示 */
+@media ( min-width: 992px) and (max-width: 1199px) {
+  .pd-zero-md {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .align-left-md {
+    text-align: left;
+    float: left !important;
+  }
+}
+
+/* 大于1200时显示 */
+@media ( min-width: 1200px) {
+  .pd-zero-lg {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .align-left-lg {
+    text-align: left;
+    float: left !important;
+  }
+}
+
+.navbar-toggle-exp {
+  float: right;
+  font-size: 14px;
+}
+
+.navbar-toggle-exp > a {
+  position: relative;
+  display: block;
+  padding: 15px;
+  color: #777777;
+}
+
+.navbar-toggle-exp > a:hover, .navbar-toggle-exp > a:focus {
+  text-decoration: none;
+  background-color: #e7e7e7;
+}
+
+.navbar-toggle-exp > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+@media ( min-width: 768px) {
+  .navbar-toggle-exp {
+    display: none;
+  }
+}
+
+label.has-error {
+  font-family: verdana, sans-serif;
+  color: #a94442;
+  margin-bottom: -5px;
+}
+
+.td_center {
+  width: 5px;
+  text-align: center;
+}
+
+.td_center > .td-btn-group {
+  width: 65px;
+}
+
+.td_center > .td-btn-group > .btn-xs-hit {
+  height: 22px;
+}
+
+.btn-hit {
+  height: 34px;
+}

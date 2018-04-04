@@ -1,0 +1,108 @@
+[class^="fa-"],[class*=" fa-"] {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	*margin-right: .3em;
+}
+
+[class^="fa-"]:before,[class*=" fa-"]:before {
+	text-decoration: inherit;
+	display: inline-block;
+	speak: none;
+}
+
+a [class^="fa-"],a [class*=" fa-"] {
+	display: inline;
+}
+
+[class^="fa-"].icon-fixed-width,[class*=" fa-"].icon-fixed-width {
+	display: inline-block;
+	width: 1.1428571428571428em;
+	text-align: right;
+	padding-right: 0.2857142857142857em;
+}
+
+[class^="fa-"].icon-fixed-width.icon-large,[class*=" fa-"].icon-fixed-width.icon-large
+	{
+	width: 1.4285714285714286em;
+}
+
+[class^="fa-"].hide,[class*=" fa-"].hide {
+	display: none;
+}
+
+[class^="fa-"].pull-left,[class*=" fa-"].pull-left {
+	margin-right: .3em;
+}
+
+[class^="fa-"].pull-right,[class*=" fa-"].pull-right {
+	margin-left: .3em;
+}
+
+[class^="fa-"],[class*=" fa-"] {
+	display: inline;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	margin-top: 0;
+}
+
+.btn [class^="fa-"].icon-large,.nav [class^="fa-"].icon-large,.btn [class*=" fa-"].icon-large,.nav [class*=" fa-"].icon-large
+	{
+	line-height: .9em;
+}
+
+.btn [class^="fa-"].icon-spin,.nav [class^="fa-"].icon-spin,.btn [class*=" fa-"].icon-spin,.nav [class*=" fa-"].icon-spin
+	{
+	display: inline-block;
+}
+
+.nav-tabs [class^="fa-"],.nav-pills [class^="fa-"],.nav-tabs [class*=" fa-"],.nav-pills [class*=" fa-"],.nav-tabs [class^="fa-"].icon-large,.nav-pills [class^="fa-"].icon-large,.nav-tabs [class*=" fa-"].icon-large,.nav-pills [class*=" fa-"].icon-large
+	{
+	line-height: .9em;
+}
+
+.btn [class^="fa-"].pull-left.icon-2x,.btn [class*=" fa-"].pull-left.icon-2x,.btn [class^="fa-"].pull-right.icon-2x,.btn [class*=" fa-"].pull-right.icon-2x
+	{
+	margin-top: .18em;
+}
+
+.btn [class^="fa-"].icon-spin.icon-large,.btn [class*=" fa-"].icon-spin.icon-large
+	{
+	line-height: .8em;
+}
+
+.btn.btn-small [class^="fa-"].pull-left.icon-2x,.btn.btn-small [class*=" fa-"].pull-left.icon-2x,.btn.btn-small [class^="fa-"].pull-right.icon-2x,.btn.btn-small [class*=" fa-"].pull-right.icon-2x
+	{
+	margin-top: .25em;
+}
+
+.btn.btn-large [class^="fa-"],.btn.btn-large [class*=" fa-"] {
+	margin-top: 0;
+}
+
+.btn.btn-large [class^="fa-"].pull-left.icon-2x,.btn.btn-large [class*=" fa-"].pull-left.icon-2x,.btn.btn-large [class^="fa-"].pull-right.icon-2x,.btn.btn-large [class*=" fa-"].pull-right.icon-2x
+	{
+	margin-top: .05em;
+}
+
+.btn.btn-large [class^="fa-"].pull-left.icon-2x,.btn.btn-large [class*=" fa-"].pull-left.icon-2x
+	{
+	margin-right: .2em;
+}
+
+.btn.btn-large [class^="fa-"].pull-right.icon-2x,.btn.btn-large [class*=" fa-"].pull-right.icon-2x
+	{
+	margin-left: .2em;
+}
+
+.nav-list [class^="fa-"],.nav-list [class*=" fa-"] {
+	line-height: inherit;
+}
